@@ -7,7 +7,7 @@ The Coral Lineage Standard (CLS) is a vendor-neutral, certifiable specification 
 ## 🧬 Purpose
 
 This schema ensures:
-- **Interoperability** across platforms like SaltyBid, eBay, and Shopify
+- **Interoperability** across platforms like SaltyBid, eBay, Shopify, Local Fish Store Sales, and Peer to Peer sales.
 - **Lineage integrity** for coral collectors and sellers
 - **Transparency** of ownership history and frag origin
 - **Integration** into certificates, QR tags, and real-time validators
