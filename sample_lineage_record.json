@@ -1,0 +1,64 @@
+{
+  "clid": "SB-CL-7e3a1f72-9d41-4a99-a79d-1234abcde999",
+  "coralName": "Jason's Rainbow Mille",
+  "strainOrigin": "Reef Builders Indo-Pacific Farm",
+  "dateFirstListed": "2023-01-15",
+  "gen": 3,
+  "verifiedBy": [
+    "SaltyBid"
+  ],
+  "traits": [
+    "Highlighter tips",
+    "Fast grower",
+    "Encrusting base",
+    "Multicolor polyp"
+  ],
+  "images": [
+    {
+      "url": "https://saltybid.com/images/corals/rainbow-mille-gen3.jpg",
+      "date": "2024-06-02",
+      "caption": "3rd gen frag under 18k lighting"
+    }
+  ],
+  "lineageChain": [
+    {
+      "owner": "Indo-Pacific Coral Farm",
+      "platform": "Private",
+      "transactionID": "N/A",
+      "transactionDate": "2022-01-01",
+      "price": 0,
+      "generation": 0,
+      "fragSize": "Colony"
+    },
+    {
+      "owner": "Dave's Reef Emporium",
+      "platform": "SaltyBid",
+      "transactionID": "SB-TX-4456778",
+      "transactionDate": "2023-01-15",
+      "price": 400,
+      "generation": 1,
+      "fragSize": "2.5\""
+    },
+    {
+      "owner": "Aquatic Jenna",
+      "platform": "eBay",
+      "transactionID": "EB-2139941",
+      "transactionDate": "2023-09-10",
+      "price": 265,
+      "generation": 2,
+      "fragSize": "1.75\""
+    },
+    {
+      "owner": "ReefKingCorals",
+      "platform": "SaltyBid",
+      "transactionID": "SB-TX-5581200",
+      "transactionDate": "2024-06-02",
+      "price": 189,
+      "generation": 3,
+      "fragSize": "1.25\""
+    }
+  ],
+  "qrCodeURL": "https://saltybid.com/verify/SB-CL-7e3a1f72-9d41-4a99-a79d-1234abcde999",
+  "signature": "SHA256:9a32bfcdd2f094ed2cf...<truncated>",
+  "notes": "This frag was healed for 6 weeks before sale and has maintained coloration across multiple systems."
+}
