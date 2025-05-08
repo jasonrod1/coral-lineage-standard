@@ -1,0 +1,92 @@
+$schema: http://json-schema.org/draft-07/schema#
+title: Coral Lineage Record
+description: Defines the data structure for a certified coral lineage record under
+  the Coral Lineage Standard (CLS).
+type: object
+required:
+- clid
+- coralName
+- strainOrigin
+- dateFirstListed
+- lineageChain
+- gen
+- verifiedBy
+properties:
+  clid:
+    type: string
+    description: Globally unique Coral Lineage ID, e.g., 'SB-CL-3497f820-1a2b-4cd3-bb88-1234abcd5678'
+  coralName:
+    type: string
+    description: "The name of the coral strain, e.g., 'Jason\u2019s Rainbow Mille'"
+  strainOrigin:
+    type: string
+    description: Original collector, reef source, or aquaculture facility
+  dateFirstListed:
+    type: string
+    format: date
+    description: Date the coral lineage was first sold or registered
+  gen:
+    type: integer
+    description: Current generation number, where 0 = original mother colony
+  verifiedBy:
+    type: array
+    description: List of verifying entities (e.g., 'SaltyBid')
+    items:
+      type: string
+  traits:
+    type: array
+    description: Optional descriptive traits such as growth rate, color, structure
+    items:
+      type: string
+  images:
+    type: array
+    description: Links to images of the coral at various stages
+    items:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+        date:
+          type: string
+          format: date
+        caption:
+          type: string
+      required:
+      - url
+  lineageChain:
+    type: array
+    description: Chronological record of ownership and sales
+    items:
+      type: object
+      required:
+      - owner
+      - platform
+      - transactionDate
+      - generation
+      properties:
+        owner:
+          type: string
+        platform:
+          type: string
+        transactionID:
+          type: string
+        transactionDate:
+          type: string
+          format: date
+        price:
+          type: number
+        generation:
+          type: integer
+        fragSize:
+          type: string
+  qrCodeURL:
+    type: string
+    format: uri
+    description: URL to the public certificate validator with QR support
+  signature:
+    type: string
+    description: Optional cryptographic or digital signature to validate record authenticity
+  notes:
+    type: string
+    description: Freeform notes from certifier or seller
